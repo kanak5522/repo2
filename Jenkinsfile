@@ -48,7 +48,7 @@ pipeline {
                     // Add the necessary remote and merge the branch into main
             
                     sh 'git checkout main'
-                    sh 'git merge feature-branch'
+                    sh 'git merge newb'
 
                     // Push the changes to the main branch
                     sh 'git push origin main'
