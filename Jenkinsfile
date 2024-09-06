@@ -46,9 +46,7 @@ pipeline {
                 script {
                     // Ensure you have necessary permissions and setup for Git operations
                     // Add the necessary remote and merge the branch into main
-                    sh 'git config user.email "you@example.com"'
-                    sh 'git config user.name "Your Name"'
-                    sh 'git remote add origin https://github.com/kanak5522/jk.git'
+                    
                     sh 'git checkout main'
                     sh 'git merge feature-branch'
 
